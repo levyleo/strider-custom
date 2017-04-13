@@ -14,6 +14,19 @@ echo Deploying <%= ref.branch %>…
 .scripts/deploy.sh <%= ref.branch %>
 ```
 
+## Install
+
+```json
+npm install strider-custom
+```
+
+If it is own plugin, you can using these in your strider package.json
+```json
+"dependencies": {
+  "strider-custom": "github:levyleo/strider-custom"
+}
+```
+
 ## Using `strider.json`
 This plugin also supports being configured using the `strider.json` file in your project.
 
